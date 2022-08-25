@@ -20,9 +20,9 @@ final class HomepagePresenter extends BasePresenter
         //$user->nickname = 'Pavlik';
         //$this->us->fluschUser($user);
 
-        //$user = $this->us->findUserByEmail('kluspavel@gmail.com');
-        //$user = $this->us->findUserById(2);
+        $user = $this->us->findUserByEmail('kluspavel@gmail.com');
+        $user = $this->us->findUserById(2);
 
-        //dump($user);
+        dump($user);
     }
 }
